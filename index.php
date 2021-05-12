@@ -31,26 +31,23 @@
   <a class="navbar-brand" href="#">Simplon</a>
 
   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-            <a href="#home" class="nav-link font-weight-normal">Accueil</a>
-            </li>
-            <li class="nav-item">
-            <a href="#forma" class="nav-link font-weight-normal">Nos formations</a>
-            </li>
-            <li class="nav-item">
-            <a href="#entreprise" class="nav-link font-weight-normal">Entreprise</a>
-            </li>
-            <li class="nav-item">
-            <a href="#actu" class="nav-link font-weight-normal">Actualités</a>
-            </li>
-            <li class="nav-item">
-            <a href="#contact" class="nav-link font-weight-normal">Contact</a>
-            </li>
-    </ul>
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>   
+  
+    <div class="dropdown">
+  <button class="btn btn dropdown-toggle white" type="button" data-toggle="dropdown">Nos formations<span class="caret"></span></button>     
+  <ul class="dropdown-menu">
+    <li><a href="DevWeb_content.php">Développeur Web & Mobile</a></li>   
+    <li><a href="RefDig_content.php">Référent·e Digital</a></li>
+    <li><a href="TSSR_content.php">Technicien·ne Supérieur Systèmes et Réseaux</a></li>     
+  </ul>
+</div>
+
+
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Rechercher" aria-label="Search">
-      <button type="button" class="btn btn-danger">Rechercher</button>
+            <a href="#" class="btn active white" role="button" data-bs-toggle="button" aria-pressed="true">Administrateur</a>   
+            <a href="#" class="btn active white" role="button" data-bs-toggle="button" aria-pressed="true">Profil</a>
+            <a href="#" class="btn active white" role="button" data-bs-toggle="button" aria-pressed="true">Inscription</a>
+            <a href="#" class="btn active white" role="button" data-bs-toggle="button" aria-pressed="true">Connexion</a>          
     </form>
   </div>
 </nav>
@@ -84,51 +81,33 @@
         <div class="row">
 
             <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                <h4 class="text-center font-weight-bold"><i class="fas fa-code fa-1x text-primary"></i></br>Développeur·se Web et Web Mobile</h4>
+                <h4 class="text-center font-weight-bold"><i class="fas fa-code fa-1x text-danger"></i></br>Développeur·se Web et Web Mobile</h4>
                 <p class="text-justify text-center">De l’analyse du besoin à la mise en ligne, en passant par l’interface et la base de données, le·la développeur·se web conçoit et programme des applications web.
                     Le⋅a développeur·se web réalise l’ensemble des fonctionnalités d’un site ou d’une application web. Le⋅a développeur·se web analyse les besoins des clients consignés au préalable dans un cahier des charges par le chef de projet...
                 </p>
                 <a href="DevWeb_content.php">
-                    <button type="button" class="btn btn-danger" style="margin:75px">Découvrez la formation</button>        
+                    <button type="button" class="btn btn-danger" style="margin:75px">Postuler</button>        
                 </a>
             </div>
             <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                <h4 class="text-center font-weight-bold"><i class="fas fa-camera-retro fa-1x text-primary"></i></br>Référent·e Digital</h4>
+                <h4 class="text-center font-weight-bold"><i class="fas fa-camera-retro fa-1x text-danger"></i></br>Référent·e Digital</h4>
                 <p class="text-justify text-center">De la stratégie de communication en ligne à la fidélisation en passant par la dématérialisation d’offres de service,
                     le⋅a référent⋅e digital participe activement à la stratégie digitale d’une entreprise.
                     Son principal rôle est d'identifier et d'accompagner la création de solutions numériques au sein d'une structure : site web, mise en place de solutions e-commerce, publicité en ligne (webmarketing) Lorem ipsum dolor sit amet.      
                 </p>
                 <a href="RefDig_content.php">
-                    <button type="button" class="btn btn-danger" style="margin:75px">Découvrez la formation</button>
+                    <button type="button" class="btn btn-danger" style="margin:75px">Postuler</button>
                 </a>
             </div>
             <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="1000">
-                <h4 class="text-center font-weight-bold"><i class="fab fa-wordpress fa-1x text-primary"></i></br>Technicien·ne Supérieur·e Systèmes et Réseaux</h4>
+                <h4 class="text-center font-weight-bold"><i class="fab fa-wordpress fa-1x text-danger"></i></br>Technicien·ne Supérieur·e Systèmes et Réseaux</h4>
                 <p class="text-justify text-center">De l’assistance aux utilisateurs, en passant par la gestion d’un parc informatique, le·la technicien⋅ne supérieur⋅e systèmes et réseaux installe et maintient le matériel ainsi que le réseau et apporte du support informatique.
                     Le·la technicien⋅ne supérieur⋅e systèmes et réseaux participe à la mise en service et au maintien en condition opérationnelle de l’infrastructure informatique...
                 </p>
                 <a href="TSSR_content.php">    
-                    <button type="button" class="btn btn-danger" style="margin:75px">Découvrez la formation</button>
+                    <button type="button" class="btn btn-danger" style="margin:75px">Postuler</button>
                 </a>
-            </div>
-            <!-- <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="2500">
-                <h4 class="text-center font-weight-bold"><i class="fas fa-camera-retro fa-1x text-primary"></i></br>Simplon Charleville</h4>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam repellendus minima quia, quo quis fugit maiores nisi asperiores amet aperiam obcaecati nostrum consequuntur!
-                    Expedita, minima?</p>
-            </div>
-            <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="2500">
-                <h4 class="text-center font-weight-bold"><i class="fas fa-pills fa-1x text-primary"></i></br>Simplon Charleville</h4>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam repellendus minima quia, quo quis fugit maiores nisi asperiores amet aperiam obcaecati nostrum consequuntur!
-                    Expedita, minima?</p>   
-            </div>
-            <div class="col-md-4 lg-2 justify-content-center" data-aos="fade-up" data-aos-duration="2500">
-                <h4 class="text-center font-weight-bold"><i class="fas fa-ticket-alt fa-1x text-primary"></i></br>Contact</h4>
-                <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quisquam repellendus minima quia, quo quis fugit maiores nisi asperiores amet aperiam obcaecati nostrum consequuntur!
-                    Expedita, minima?</p>
-            </div> -->
+            </div>  
 
         </div>
     </div>
@@ -150,31 +129,26 @@
 
         <div class="progress mt-3" style="height: 35px">
             <div class="progress-bar progress-bar-animated progress-bar-striped bg-dark w-75" data-aos="fade-right" data-aos-duration="1000">
-                <p class="mt-3 p-3"><span class="float-left font-weight-bold">Simplonien·ne·s depuis la création</span>
-                    <span class="float-right font-weight-bold">+63</span>
+                <p class="mt-3 p-3"><span class="float-left font-weight-bold" id="cacher">Simplonien·ne·s depuis la création</span>
+                    <span class="float-right font-weight-bold">+63</span>   
                 </p>
             </div>
         </div>
         <div class="progress mt-3" style="height: 35px">
             <div class="progress-bar progress-bar-animated progress-bar-striped bg-success w-100" data-aos="fade-right" data-aos-duration="1000">
-                <p class="mt-3 p-3"><span class="float-left font-weight-bold">De taux de réussite au diplôme en Front-End</span>
+                <p class="mt-3 p-3"><span class="float-left font-weight-bold" id="cacher">De taux de réussite au diplôme en Front-End</span>
                     <span class="float-right font-weight-bold">100 %</span>
                 </p>
             </div>
         </div>
-        <div class="progress mt-3" style="height: 35px">
+        <div class="progress mt-3" style="height: 35px">    
             <div class="progress-bar progress-bar-animated progress-bar-striped bg-danger w-75" data-aos="fade-right" data-aos-duration="1000">
-                <p class="mt-3 p-3"><span class="float-left font-weight-bold">De taux de réussite au diplôme en Back-End</span>
+                <p class="mt-3 p-3"><span class="float-left font-weight-bold" id="cacher">De taux de réussite au diplôme en Back-End</span>
                     <span class="float-right font-weight-bold">83 %</span>  
                 </p>
             </div>
         </div>
-        <!-- <div class="progress mt-3" style="height: 35px">
-        <div class="progress-bar progress-bar-animated progress-bar-striped bg-warning w-1" data-aos="fade-right" data-aos-duration="2500">
-        <p class="mt-3 p-3"><span class="float-left font-weight-bold">Formateur</span> |
-        <span class="float-right font-weight-bold">Ecole 49.3</span></p> 
-        </div>
-    </div> -->
+      
     </div>
 
     <!-- En-tête nos contacts -->
@@ -231,7 +205,7 @@
                             </div>
 
                             <div class="col-lg-12">
-                                <input type="submit" name="button" class="btn btn-red" value="Envoyer">
+                                <input type="submit" name="button" class="btn btn-danger" value="Envoyer">  
                             </div>
                         </div>
                     </form>
@@ -299,8 +273,8 @@
             </div>
 
             <div class="text-center p-2">
-                <p class="text-white">&copy; Copyright<a href="#home" class="text-dark text-uppercase">Simplon</a> Tous droits réservées</p>
-                <p class="text-white">Bootstrapé avec bootstrap!!!</p>
+                <p class="text-white">&copy; Copyright <a href="#home" class="text-dark text-uppercase"> Simplon</a> Tous droits réservées</p>
+                <p class="text-white">Ju V, Mat W & Flo </p>    
             </div>
 
 

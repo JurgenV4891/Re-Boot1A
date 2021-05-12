@@ -48,10 +48,24 @@ hr {
 
     .container {
         width: 80%;
-
     }
+    .waves-input-wrapper{
+        padding: 18px;   
+        margin: 28px;
+    }
+   .btn-danger{
+    padding: 15px 20px; 
+   }
+  #cacher{
+    display: none;              
+  }
+
 }  
 
 .selector-for-some-widget {
   box-sizing: content-box;
+}
+
+li{
+    display: flex;
 }
